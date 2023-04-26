@@ -17,6 +17,6 @@
 3. 通过预加载优化字体的加载速度，以加快网页加载
 4. 加入美观的鼠标样式
 
-**注：鼠标未提供设置项**
-如要删除，在 \assets\styles\main.less 中从第 185 行开始全部删除，在 \assets\media\scripts\main.js 中从第 59 行开始删除
+**注：鼠标未提供设置项**<br>
+如要删除，在 \assets\styles\main.less 中从第 185 行开始全部删除，在 \assets\media\scripts\main.js 中从第 59 行开始删除<br>
 如要更换鼠标颜色，在 \assets\styles\main.less 中第 189 行“background”后和 \assets\media\scripts\main.js 中第 100 行第 196 列“rgb(xxx, xxx, xxx)”处更改颜色值
