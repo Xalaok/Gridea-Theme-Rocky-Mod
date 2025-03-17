@@ -4,54 +4,12 @@ body {
   font-family: "LXGW WenKai Screen", sans-serif;
 }
 
-@font-face {
-  font-family: 'Fira Code';
-  src: url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff2/Light.woff2')
-      format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff/Light.woff')
-      format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
+@import url(https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/firacode/6.2.0/fira_code.min.css);
 
-@font-face {
-  font-family: 'Fira Code';
-  src: url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff2/Regular.woff2')
-      format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff/Regular.woff')
-      format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
+code { font-family: 'Fira Code', monospace; }
 
-@font-face {
-  font-family: 'Fira Code';
-  src: url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff2/Medium.woff2')
-      format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff/Medium.woff')
-      format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira Code';
-  src: url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff2/SemiBold.woff2')
-      format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff/SemiBold.woff')
-      format('woff');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Fira Code';
-  src: url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff2/Bold.woff2')
-      format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/Xalaok/Fonts@main/FiraCode/woff/Bold.woff')
-      format('woff');
-  font-weight: 700;
-  font-style: normal;
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
 }
 
 a:not([class]) {
