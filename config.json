@@ -204,92 +204,19 @@
       "type": "input"
     },
     {
-      "name": "openValine",
-      "label": "是否开启",
-      "group": "Valine 评论",
-      "value": false,
-      "type": "switch",
-      "note": "设置文档： https://valine.js.org/"
-    },
-    {
-      "name": "valineAppId",
-      "label": "App ID",
-      "group": "Valine 评论",
-      "value": "",
-      "type": "input",
-      "note": "从 LeanCloud 的应用中得到的 appId"
-    },
-    {
-      "name": "valineAppKey",
-      "label": "App Key",
-      "group": "Valine 评论",
-      "value": "",
-      "type": "input",
-      "note": "从 LeanCloud 的应用中得到的 APP Key"
-    },
-    {
-      "name": "valineNotify",
-      "label": "Notify",
-      "group": "Valine 评论",
-      "value": false,
-      "type": "switch",
-      "note": "评论回复邮件提醒"
-    },
-    {
-      "name": "valineVerify",
-      "label": "Verify",
-      "group": "Valine 评论",
+      "name": "showComment",
+      "label": "是否显示评论",
+      "group": "Twikoo 评论",
       "value": true,
-      "type": "switch",
-      "note": "验证码服务"
+      "type": "switch"
     },
     {
-      "name": "valineAvatar",
-      "label": "Avatar",
-      "group": "Valine 评论",
-      "value": "mp",
+      "name": "twikooEnvId",
+      "label": "Twikoo 环境 ID",
+      "group": "Twikoo 评论",
+      "value": "",
       "type": "input",
-      "note": "Gravatar 头像展示方式"
-    },
-    {
-      "name": "valinePageSize",
-      "label": "Page Size",
-      "group": "Valine 评论",
-      "value": 10,
-      "type": "input",
-      "note": "评论列表分页，每页条数"
-    },
-    {
-      "name": "valineVisitor",
-      "label": "Visitor",
-      "group": "Valine 评论",
-      "value": false,
-      "type": "switch",
-      "note": "文章访问量统计"
-    },
-    {
-      "name": "valineHighlight",
-      "label": "Highlight",
-      "group": "Valine 评论",
-      "value": false,
-      "type": "switch",
-      "note": "代码高亮，默认开启，若不需要，请手动关闭"
-    },
-    {
-      "name": "valineRecordIp",
-      "label": "Record IP",
-      "group": "Valine 评论",
-      "value": false,
-      "type": "switch",
-      "note": "是否记录评论者IP"
-    },
-    {
-      "name": "valinePlaceholder",
-      "label": "Placeholder",
-      "group": "Valine 评论",
-      "value": "来都来了，不妨评论一下",
-      "type": "input",
-      "note": "评论框占位提示符"
+      "note": "填入你的 Twikoo 环境 ID"
     },
     {
       "name": "customCss",

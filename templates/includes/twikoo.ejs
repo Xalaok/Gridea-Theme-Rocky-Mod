@@ -1,0 +1,11 @@
+<% if (site.customConfig.showComment) { %>
+  <div class="comment-wrapper">
+    <div id="tcomment"></div>
+    <script>
+      twikoo.init({
+        envId: '<%= site.customConfig.twikooEnvId %>',
+        el: '#tcomment'
+      })
+    </script>
+  </div>
+<% } %>

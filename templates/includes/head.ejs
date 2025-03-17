@@ -36,3 +36,7 @@
   gtag('config', '<%= site.customConfig.ga %>')
 </script>
 <% } %>
+
+<% if (site.customConfig.showComment) { %>
+  <script src="https://registry.npmmirror.com/twikoo/1.6.41/files/dist/twikoo.min.js"></script>
+<% } %>
